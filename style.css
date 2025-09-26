@@ -12,8 +12,7 @@
   font-family: "Roboto";
 }
 
-
-.header-image{
+.header-image {
   display: block;
   max-width: 70px;
   height: auto;
@@ -47,8 +46,7 @@ ul {
   align-items: center;
   background-color: #1f2937;
   gap: 16px;
-  padding: 16px;
-  
+  padding: 32px;
 }
 
 .hero-left {
@@ -58,15 +56,13 @@ ul {
   align-items: flex-start;
   flex: 1;
   max-width: 35%;
-  
 }
-.hero-left button{
-  padding:  5px 30px;
+.hero-left button {
+  padding: 5px 30px;
   font-weight: bold;
   color: white;
   border-radius: 8px;
-  border: 1px solid #3882F6;
-
+  border: 1px solid #3882f6;
 }
 
 .hero-right {
@@ -75,13 +71,12 @@ ul {
   flex-direction: column;
   justify-content: center;
   flex: 1;
-
 }
 
-.hero-image{
- max-width: 100%;
- border-radius: 8px;
- height: auto;
+.hero-image {
+  max-width: 100%;
+  border-radius: 8px;
+  height: auto;
 }
 
 .hero-main-text {
@@ -89,12 +84,13 @@ ul {
   font-weight: 900;
   color: #f9faf8;
   margin: 0;
+  font-family: "Roboto", sans-serif
 }
 
 .hero-secondary-text {
   font-size: 18px;
   color: #e5e7eb;
-  margin: 0;
+  font-family: "Roboto", sans-serif
 }
 
 .button-container {
@@ -108,9 +104,8 @@ button {
   border-radius: 12px;
   padding: 8px;
   border: 1px;
+   font-family: "Roboto", sans-serif
 }
-
-
 
 .content {
   display: flex;
@@ -127,63 +122,63 @@ button {
   font-weight: 900;
 }
 
-.content-item-container{
+.content-item-container {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 45%;
   gap: 20px;
-  
 }
 
-.content-flex-item{
+.content-flex-item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  gap: 10px;
+  padding: 16px;
 }
 
-.quote-wrapper{
+.quote-wrapper {
   background-color: #e5e7eb;
   padding: 32px 0px;
   display: flex;
   justify-content: center;
+  margin-top: 32px;
 }
-.quote-container{
+.quote-container {
   display: flex;
   flex-direction: column;
   padding: 32px;
   max-width: 800px;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: "Roboto", sans-serif;
 }
 
-.quote-text{
+.quote-text {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
- 
+  font-weight: 300;
 }
 
-.quote-author{
+.quote-author {
   align-self: flex-end;
-  margin-top: 16px;
   font-weight: 900;
-  
 }
 
-
-.call-to-action-container{
+.call-to-action-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 64px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.call-to-action-main{
+.call-to-action-main {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -191,43 +186,43 @@ button {
   background-color: #3882f6;
   border-radius: 10px;
   padding: 32px;
-  gap: 64px;
-
+  gap: 80px;
 }
 
-.call-to-action-main-left{
-  
+.call-to-action-main-left {
 }
 
 .call-to-action-main-left p:first-of-type {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
-
 
 .call-to-action-main-left p {
   color: #e5e7eb;
 }
 
-.call-to-action-main-right{
-
+.call-to-action-main-right {
+  
 }
 
-.call-to-action-main-right button{
-border-radius: 8px;
-border: 1px solid white;
-padding: 5px 30px;
+.call-to-action-main-right button {
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 5px 30px;
 }
 
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   background-color: #1f2937;
   padding: 32px;
 }
 
-.footer-text{
+.footer-text {
   display: flex;
   color: white;
-  
+}
+
+p{
+   font-family: "Roboto", sans-serif
 }
