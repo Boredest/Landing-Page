@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -62,10 +63,6 @@ ul {
   max-width: 500px;
 }
 .hero-left button {
-  padding: 5px 30px;
-  font-weight: bold;
-  color: white;
-  border-radius: 8px;
   border: 1px solid #3882f6;
 }
 
@@ -104,11 +101,12 @@ ul {
 
 button {
   background-color: #3882f6;
-  color: #e5e7eb;
-  border-radius: 12px;
-  padding: 8px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 5px 30px;
   border: 1px;
-   font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif
 }
 
 .content {
@@ -223,9 +221,7 @@ button {
 }
 
 .call-to-action-main-right button {
-  border-radius: 8px;
   border: 1px solid white;
-  padding: 5px 30px;
 }
 
 .footer {
