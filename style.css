@@ -105,8 +105,7 @@ button {
   font-weight: bold;
   border-radius: 8px;
   padding: 5px 30px;
-  border: 1px;
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
 }
 
 .content {
@@ -173,7 +172,7 @@ button {
   font-weight: 900;
 }
 
-.call-to-action-container {
+.cta-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -184,7 +183,7 @@ button {
   
 }
 
-.call-to-action-main {
+.cta-main {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -199,28 +198,28 @@ button {
   
 }
 
-.call-to-action-main-left {
+.cta-main-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   
 }
 
-.call-to-action-main-left p:first-of-type {
+.cta-main-left p:first-of-type {
   font-weight: bold;
   font-size: 18px;
 }
 
-.call-to-action-main-left p {
+.cta-main-left p {
   color: #e5e7eb;
 }
 
-.call-to-action-main-right {
+.cta-main-right {
   display: flex;
   flex-direction: column;
 }
 
-.call-to-action-main-right button {
+.cta-main-right button {
   border: 1px solid white;
 }
 
@@ -237,5 +236,5 @@ button {
 }
 
 p{
-   font-family: "Roboto", sans-serif
+   font-family: "Roboto", sans-serif;
 }
