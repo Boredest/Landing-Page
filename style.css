@@ -193,8 +193,8 @@ button {
   padding: 32px;
   gap: 20px;
   flex-wrap: wrap;
-  width: 85%;
   max-width: 900px;
+  flex: 1;
   
 }
 
@@ -202,6 +202,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 300px;
   
 }
 
@@ -217,6 +218,7 @@ button {
 .cta-main-right {
   display: flex;
   flex-direction: column;
+  
 }
 
 .cta-main-right button {
